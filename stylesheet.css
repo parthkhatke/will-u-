@@ -76,11 +76,11 @@ body{
     height: 20px;
     animation: R 3s linear infinite;
   }
-  /* @keyframes R{
+  @keyframes R{
     0%{transform: scale(.5);}
     50%{transform: scale(1.2);}
     100%{transform: scale(.5);}
-  } */
+  }
 @media(max-width:350px){
     .container{
         display: grid;
