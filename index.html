@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div id="fex">
+    <div class="container">
+      <div class="image">
+        <p class="pri"><img src="R.png"> Mis PRIYANSHI SETHI <img src="R.png"></p>
+      </div>
+      <p class="ask">Will u be my VALENTINE<img src="R.png">?</p>
+      <div class="fex">
+        <div class="pill"> <button type="button" onclick="pressy()" class="btn y">YES</button></div>
+        <div class="pill"> <button type="button" onclick="pressn()" class="btn" >NO</button></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function pressy()
+    {
+      document.querySelector('.image').style.background = "url('panda.png') center center/ cover ";
+      document.querySelector('.pri').style.color="rgb(68, 10, 43)";
+      document.querySelector('.pri').innerHTML="YYYAAAYYYY!!!";
+      document.querySelector('.ask').innerHTML="DRUM ROLLSS🥁🥁🥁";
+    }
+    function pressn(){
+      document.querySelector('.image').style.background = "url('1234.png') center center/ cover ";
+      document.querySelector('.pri').innerHTML="WHYY???🥺🥺😭😭PLEASEEEEE🥺🥺";
+      document.querySelector('.ask').innerHTML="";
+    }
+  </script>
+</body>
+
+</html>
