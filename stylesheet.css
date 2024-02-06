@@ -81,7 +81,7 @@ body{
     50%{transform: scale(1.2);}
     100%{transform: scale(.5);}
   }
-@media(max-width:350px){
+@media(max-width:390px){
     .container{
         display: grid;
         width: 300px;
