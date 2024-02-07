@@ -90,8 +90,8 @@ body{
         grid-template-rows: 250px 50px;
     }
     .btn{
-        background-color: #FE9CA7;
-        color: rgb(255, 255, 255);
+        background-color: #F2F2F2;
+        color: #ED3956;
         border: none;
         font-size:inherit;
         border-radius: 50px;
